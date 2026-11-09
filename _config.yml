@@ -23,16 +23,16 @@ description              : >
 # ============================================================
 # Your web address. Your repo must be named yourusername.github.io.
 # Replace "vt-evia" with your GitHub username, and set baseurl to "" (empty quotes).
-url                      : "https://vt-evia.github.io"            # -> "https://yourusername.github.io"
-baseurl                  : "/cmst4714-portfolio-template"         # -> ""
-repository               : "vt-evia/cmst4714-portfolio-template"  # -> "yourusername/yourusername.github.io"
-title                    : "Robin Hokie's Portfolio" # the name shown in the maroon header bar and browser tab
+url                      : "https://abbyduffer12.github.io"            # -> "https://yourusername.github.io"
+baseurl                  :         # -> ""
+repository               : "abbyduffer12/abbyduffer12.github.io"  # -> "yourusername/yourusername.github.io"
+title                    : "Abby Duffer's Portfolio" # the name shown in the maroon header bar and browser tab
 author:
-  name     : "Robin Hokie"
+  name     : "Abby Duffer"
   avatar   : "/images/bio-photo.jpg"
   bio      : "Senior, School of Communication, Virginia Tech. Interested in how human communicators build meaning in AI-mediated environments."
   location : "Blacksburg, VA"
-  email    : "robin.hokie@vt.edu"
+  email    : "abbyd24@vt.edu"
   github   : "robinhokie"    # username only, no URL — set blank to hide
   instagram: "robinhokie"    # username only, no URL — set blank to hide
   linkedin : "robinhokie"    # username only, no URL — set blank to hide
