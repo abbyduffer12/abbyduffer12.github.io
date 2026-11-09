@@ -1,74 +1,333 @@
 /* ==========================================================================
-   VIRGINIA TECH COLOR OVERRIDES
-   Chicago Maroon: #861F41
-   Burnt Orange:   #E5751F
+   PERSONAL PORTFOLIO VISUAL SYSTEM
    ========================================================================== */
 
 :root {
-    --global-base-color                 : #861F41;
-    --global-link-color                 : #861F41;
-    --global-link-color-hover           : #E5751F;
-    --global-link-color-visited         : #6a1833;
-    --global-masthead-link-color        : #ffffff;
-    --global-masthead-link-color-hover  : #E5751F;
-    --global-footer-bg-color            : #f5edef;
+  --global-base-color: #243b53;
+  --global-bg-color: #f8f6f1;
+  --global-footer-bg-color: #eef1f2;
+  --global-border-color: #dfe4e5;
+  --global-dark-border-color: #c7d0d2;
+  --global-code-background-color: #eef1f2;
+  --global-code-text-color: #334e68;
+  --global-fig-caption-color: #627d98;
+  --global-link-color: #2f6173;
+  --global-link-color-hover: #a45d49;
+  --global-link-color-visited: #536d7a;
+  --global-masthead-link-color: #243b53;
+  --global-masthead-link-color-hover: #a45d49;
+  --global-text-color: #334e68;
+  --global-text-color-light: #627d98;
+  --global-thead-color: #e7ecec;
+  --portfolio-accent: #a45d49;
+  --portfolio-accent-soft: #f1e4df;
+  --portfolio-panel: #ffffff;
+  --portfolio-shadow: 0 16px 40px rgba(36, 59, 83, 0.08);
 }
 
-/* ---- Masthead / nav bar ---- */
-/* Hit every element in the nav bar that sets a background */
+html[data-theme="dark"] {
+  --global-bg-color: #172a3a;
+  --global-footer-bg-color: #1d3448;
+  --global-border-color: #395166;
+  --global-dark-border-color: #4a657b;
+  --global-code-background-color: #1d3448;
+  --global-code-text-color: #d9e2ec;
+  --global-link-color: #9fc3cf;
+  --global-link-color-hover: #e4a28d;
+  --global-link-color-visited: #b6d2d9;
+  --global-masthead-link-color: #f8f6f1;
+  --global-masthead-link-color-hover: #e4a28d;
+  --global-text-color: #d9e2ec;
+  --global-text-color-light: #9fb3c1;
+  --global-thead-color: #29445a;
+  --portfolio-accent: #d18a73;
+  --portfolio-accent-soft: #3a2f34;
+  --portfolio-panel: #1d3448;
+  --portfolio-shadow: 0 16px 40px rgba(0, 0, 0, 0.18);
+}
+
+/* --------------------------------------------------------------------------
+   Shared surfaces and typography
+   -------------------------------------------------------------------------- */
+
+body {
+  background:
+    radial-gradient(circle at 90% 8%, rgba(164, 93, 73, 0.08), transparent 25rem),
+    var(--global-bg-color);
+  color: var(--global-text-color);
+  font-size: 17px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--global-base-color);
+  letter-spacing: -0.02em;
+}
+
+a {
+  transition: color 0.2s ease, border-color 0.2s ease, background-color 0.2s ease;
+}
+
+/* --------------------------------------------------------------------------
+   Navigation
+   -------------------------------------------------------------------------- */
+
 .masthead,
 .masthead__inner-wrap,
 .masthead__menu,
 .greedy-nav,
 .greedy-nav button,
-.masthead__menu-item,
-.masthead__menu-item.selected a,
-ul.visible-links,
-ul.visible-links li {
-    background: #861F41 !important;
-    background-color: #861F41 !important;
+.masthead__menu-item {
+  background: var(--global-bg-color) !important;
 }
 
-/* Bottom border accent line */
+.masthead {
+  border-bottom: 1px solid var(--global-border-color);
+  box-shadow: 0 5px 24px rgba(36, 59, 83, 0.05);
+  backdrop-filter: blur(12px);
+}
+
 .masthead::after {
-    background: #E5751F !important;
+  height: 3px;
+  background: var(--portfolio-accent);
 }
 
-/* Nav link text: white, orange on hover */
-.greedy-nav a,
-.greedy-nav .visible-links a,
-.greedy-nav button {
-    color: #ffffff !important;
+.masthead__inner-wrap {
+  padding-top: 0.8em;
+  padding-bottom: 0.8em;
 }
 
-.greedy-nav a:hover,
-.greedy-nav .visible-links a:hover {
-    color: #E5751F !important;
+.masthead__menu-item--lg {
+  letter-spacing: -0.02em;
 }
 
-/* Hover underline bar */
-.greedy-nav .visible-links a:before {
-    background: #E5751F !important;
+.greedy-nav a {
+  color: var(--global-masthead-link-color);
+  font-size: 0.78rem;
+  font-weight: 650;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
 }
 
-/* Hamburger icon */
-.navicon,
-.navicon::before,
-.navicon::after {
-    background: #ffffff !important;
+.greedy-nav .visible-links a::before {
+  background: var(--portfolio-accent);
+  height: 2px;
 }
 
-/* Mobile/overflow dropdown — keep readable */
-.greedy-nav .hidden-links {
-    background: #6a1833 !important;
-    background-color: #6a1833 !important;
+.masthead__menu-item.selected a {
+  color: var(--global-base-color);
+  border-bottom-color: var(--portfolio-accent);
 }
 
-.greedy-nav .hidden-links a {
-    color: #ffffff !important;
+/* --------------------------------------------------------------------------
+   Main content and profile
+   -------------------------------------------------------------------------- */
+
+#main {
+  margin-top: 4.5em;
+  padding-left: 1.5em;
+  padding-right: 1.5em;
 }
 
-.greedy-nav .hidden-links a:hover {
-    color: #E5751F !important;
-    background: #861F41 !important;
+.page,
+.archive {
+  margin-bottom: 3em;
+}
+
+.page__inner-wrap,
+.archive {
+  background: var(--portfolio-panel);
+  border: 1px solid var(--global-border-color);
+  border-radius: 18px;
+  box-shadow: var(--portfolio-shadow);
+}
+
+.page__inner-wrap {
+  padding: clamp(1.5rem, 4vw, 3.75rem);
+}
+
+.archive {
+  padding: clamp(1.5rem, 4vw, 3rem);
+}
+
+.page__title {
+  margin-bottom: 1.5rem;
+  color: var(--global-base-color);
+  font-size: clamp(2rem, 4vw, 3.35rem);
+  letter-spacing: -0.045em;
+}
+
+.page__title::after {
+  display: block;
+  width: 3.5rem;
+  height: 4px;
+  margin-top: 1rem;
+  border-radius: 99px;
+  background: var(--portfolio-accent);
+  content: "";
+}
+
+.page__content h2 {
+  margin-top: 2.5em;
+  padding-bottom: 0.6em;
+  color: var(--global-base-color);
+  border-bottom: 0;
+  position: relative;
+}
+
+.page__content h2::after {
+  display: block;
+  width: 2.5rem;
+  height: 2px;
+  margin-top: 0.6rem;
+  background: var(--portfolio-accent);
+  content: "";
+}
+
+.page__content p,
+.page__content li {
+  line-height: 1.8;
+}
+
+.sidebar {
+  padding: 1.5rem 1.25rem;
+  border: 1px solid var(--global-border-color);
+  border-radius: 18px;
+  background: var(--portfolio-panel);
+  box-shadow: var(--portfolio-shadow);
+}
+
+.author__avatar img {
+  border: 5px solid var(--portfolio-accent-soft);
+  box-shadow: 0 0 0 1px var(--global-border-color);
+}
+
+.sidebar .author__name {
+  color: var(--global-base-color);
+  font-size: 1.35rem;
+  letter-spacing: -0.02em;
+}
+
+.author__bio {
+  color: var(--global-text-color-light);
+  line-height: 1.6;
+}
+
+.author__urls a {
+  color: var(--global-link-color);
+}
+
+.author__urls a:hover {
+  color: var(--portfolio-accent);
+}
+
+/* --------------------------------------------------------------------------
+   Portfolio archive cards
+   -------------------------------------------------------------------------- */
+
+.archive > .page__title {
+  margin-bottom: 1.25rem;
+}
+
+.archive > .list__item {
+  margin: 1.5rem 0 0;
+  padding: 1.5rem 0 0;
+  border-top: 1px solid var(--global-border-color);
+}
+
+.archive__item-title {
+  margin-top: 0;
+  font-family: $header-font-family;
+  font-size: clamp(1.2rem, 2vw, 1.55rem);
+}
+
+.archive__item-title a {
+  color: var(--global-base-color);
+  text-decoration: none;
+}
+
+.archive__item-title a:hover {
+  color: var(--portfolio-accent);
+}
+
+.archive__item-excerpt {
+  max-width: 62rem;
+  color: var(--global-text-color-light);
+  line-height: 1.7;
+}
+
+.archive__item .page__meta,
+.archive__item .page__date {
+  color: var(--portfolio-accent);
+  font-size: 0.78rem;
+  font-weight: 650;
+  letter-spacing: 0.04em;
+}
+
+/* --------------------------------------------------------------------------
+   Controls and footer
+   -------------------------------------------------------------------------- */
+
+.btn {
+  border-radius: 999px;
+  box-shadow: 0 6px 14px rgba(36, 59, 83, 0.12);
+  transition: transform 0.2s ease, box-shadow 0.2s ease, background-color 0.2s ease;
+}
+
+.btn:hover {
+  background-color: var(--portfolio-accent);
+  box-shadow: 0 9px 18px rgba(36, 59, 83, 0.16);
+  transform: translateY(-2px);
+}
+
+.page__footer {
+  position: static;
+  margin-top: 4em;
+  border-top: 1px solid var(--global-border-color);
+}
+
+@media (max-width: 925px) {
+  #main {
+    margin-top: 2.5em;
+  }
+
+  .sidebar {
+    margin-bottom: 2em;
+  }
+}
+
+@media (max-width: 600px) {
+  body {
+    font-size: 16px;
+  }
+
+  #main {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .page__inner-wrap,
+  .archive {
+    border-radius: 14px;
+    padding: 1.35rem;
+  }
+
+  .masthead__inner-wrap {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    scroll-behavior: auto !important;
+    transition-duration: 0.01ms !important;
+    animation-duration: 0.01ms !important;
+  }
 }
