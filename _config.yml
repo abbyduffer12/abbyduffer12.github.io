@@ -12,7 +12,7 @@ site_theme               : "default" # The available themes options are "default
 title_separator          : "-"
 name                     : "Abby Duffer: Communication Portfolio"
 description              : >
-  Professional portfolio for Robin Hokie, School of Communication,
+  Professional portfolio for Abby Duffer, School of Communication,
   Virginia Tech, including work from CMST 4714: The Human Communicator in an
   Era of AI.
 
@@ -34,8 +34,8 @@ author:
   location : "Blacksburg, VA"
   email    : "abbyd24@vt.edu"
   github   : "abbyduffer12"    # username only, no URL — set blank to hide
-  instagram: "robinhokie"    # username only, no URL — set blank to hide
-  linkedin : "robinhokie"    # username only, no URL — set blank to hide
+  instagram: ""    # username only, no URL — set blank to hide
+  linkedin : "Abby Duffer"    # username only, no URL — set blank to hide
 # ============================================================
 # END EDIT ZONE
 # Academicpages config continues below this point.
