@@ -12,44 +12,23 @@ redirect_from:
 <!-- WITH YOUR OWN CONTENT. DO NOT SUBMIT ROBIN HOKIE'S WORDS.    -->
 <!-- ============================================================ -->
 
-I am a senior in the School of Communication at Virginia Tech, concentrating in
-strategic communication and digital media, set to graduate in May 2027. This portfolio
-covers my full four years in the major — from my first public speaking course as a
-freshman through CMST 4714: The Human Communicator in an Era of AI, the capstone-style
-course I am finishing this semester. It exists to answer a question I first ran into as
-an eighteen-year-old annoyed at my own Instagram feed, long before I had the vocabulary
-for it: what does a human communicator actually do that an AI cannot?
+# About Me and This Portfolio 
 
-My short answer, after four years of coursework and, this semester, sitting with
-Shannon and Weaver, Escarpit, Hall, and Eco: a human communicator does not just
-transmit information. She produces meaning in a specific social and historical context,
-for a specific reader, in full awareness that her words will be interpreted,
-reinterpreted, and — now — processed by systems that have their own intentions about
-what content should reach which audience.
+I am a Communication major with a minor in Digital Marketing Strategy at Virginia Tech, graduating in May 2027. Throughout my time at Virginia Tech, I have developed a passion for understanding how communication influences people, relationships, and organizations. From marketing research and social media strategy to communication theory and professional writing, my coursework has helped me understand the importance of creating meaningful messages and connecting with different audiences. This portfolio highlights my academic experiences and growth as a communicator, especially through my work in The Human Communicator in an Era of AI.
 
-That last part is what CMST 4714 calls *intentio algorithmi*. Understanding it does not
-make me pessimistic about my field. It makes me clearer about what I am actually being
-hired to do — and looking back at my earlier coursework, I can see I was circling this
-question long before I had a name for it.
+One of the biggest questions I have explored throughout this course is what makes human communication different from artificial intelligence. AI can generate messages, improve writing, and help people communicate more efficiently, but I believe there is more to communication than simply putting words together. Human communication involves emotions, personal experiences, intentions, and understanding the people we are communicating with. Through my coursework, I have learned that the meaning of a message depends not only on what is said but also on how it is interpreted by others.
+
+This course introduced me to intentio algorithmi, which helped me better understand how AI can influence the messages we create and share. Rather than viewing AI as something that will completely replace human communication, I see it as a tool that can be useful when used responsibly. My research on AI-rewritten personal apologies especially reinforced my belief that authenticity, emotional understanding, and accountability are essential parts of communication. As I continue preparing for a career in communication and digital marketing, I want to use what I have learned to create messages that are not only effective but also genuine and meaningful.
 
 ## What I bring
 
-Alongside my coursework, I have spent two years as a writer and content coordinator for
-a regional nonprofit focused on housing equity, and I interned for a summer with a
-mid-size marketing agency where I watched a content team adopt AI drafting tools and
-spend more time editing for tone than they had previously spent writing. Both
-experiences show up directly in this portfolio: as course projects that used them as
-real case studies, and as the practical experience that keeps my theoretical arguments
-honest.
+As a Communication major with a minor in Digital Marketing Strategy at Virginia Tech, I bring a combination of creativity, communication skills, and hands-on professional experience. Through my coursework, I have gained experience in marketing research, social media strategy, content creation, and understanding how messages influence different audiences. Outside the classroom, my internship with Hitachi Energy allowed me to apply these skills in a professional environment through community relations, employee engagement, internal communications, and event planning. These experiences have strengthened my ability to work with others, adapt to different situations, and communicate effectively with a variety of audiences. I enjoy taking on leadership roles, thinking creatively, and finding ways to connect with people. I bring a strong work ethic, a willingness to learn, and a passion for creating meaningful communication that makes an impact.
 
 ## This portfolio
 
-The work below is organized chronologically by academic year, from my first public
-speaking course as a freshman to the AI analysis memos and presentation I produced this
-fall in CMST 4714. None of it is a polished final product — each piece is a document of
-thinking in progress at a particular point in my education, and read together they are
-meant to show development, not just a final semester's output. The revision history of
-this repository shows how the CMST 4714 pieces specifically developed.
+This portfolio highlights my academic work and professional experiences throughout my time at Virginia Tech. It includes projects from my communication and marketing courses, along with work from my internship at Hitachi Energy. Through my coursework, I have gained experience in communication research, social media strategy, marketing, and understanding how messages influence different audiences. My internship allowed me to take what I learned in the classroom and apply it to real-world situations through internal communications, employee engagement, community relations, and content creation.
+
+Each project represents a different part of my growth as a student and communicator. Together, these experiences demonstrate how I have developed my creativity, communication skills, and ability to connect with different audiences. This portfolio is not only a collection of my work but also a reflection of what I have learned, the skills I have developed, and how I plan to continue growing as I prepare for my future career.
 
 <!-- ============================================================ -->
 <!-- END OF EXAMPLE. START YOUR OWN ABOUT PAGE ABOVE THIS LINE.  -->
