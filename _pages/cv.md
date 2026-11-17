@@ -18,16 +18,19 @@ redirect_from:
 
 **Virginia Tech**, Blacksburg, VA
 B.A. in Communication, expected May 2027
-Concentration: Strategic Communication and Digital Media
-Minor: Tech for Humanity
+Minor: Digital Marketing Strategy
+
+### Southern Virginia Community College
+Associate Degree | May 2024
 
 ## Professional Experience
 
-**Content Coordinator** — Blacksburg Housing Equity Coalition (2024–present)
-- Write and edit community newsletters, grant narratives, and social media content
-- Developed plain-language guide to housing assistance programs (2,400 words,
-  translated into Spanish with assistance from bilingual staff)
-- Introduced an editorial workflow for AI-assisted drafting with disclosure standards
+**Hitachi Energy — South Boston, VA** Community Relations and Employee Engagement Intern | May 2026 – August 2026
+- Created internal and external communication materials, including promotional flyers, digital content, event signage, and employee-focused communications.
+- Assisted with employee engagement initiatives, recognition programs, and community relations activities.
+- Supported the planning, promotion, and coordination of company events and employee activities.
+- Developed creative materials and recognition concepts to strengthen employee engagement and workplace culture.
+- Collaborated with team members on communication projects while strengthening skills in project management, teamwork, and professional communication.
 
 **Content Writing Intern** — Roanoke Valley Marketing Group (Summer 2024)
 - Drafted web copy, email campaigns, and blog posts for six regional clients
